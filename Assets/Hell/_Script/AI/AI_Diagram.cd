@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hell.AI.PossiblePlanGenerator">
+    <Position X="8" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\AI\PossiblePlanGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.TeamAi">
+    <Position X="4.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAIAAAAAIAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\TeamAi.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PlanEvaluator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hell.AI.PlanEvaluator">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\AI\PlanEvaluator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PossiblePlanGenerator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hell.Display.PlayerAction">
+    <Position X="13.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAACAAAAAQAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Display\PlayerAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RuneHeuristic">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAIAAAAAQAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\RuneHeuristic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Coordinate">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAgAAAAAACAAAE4AURAAAAAAAMAgAAAABgBgAAgAA=</HashCode>
+      <FileName>Assets\AuxiliarScripts\Coordinate.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Hell.AI.ActionPossibility">
+    <Position X="10.75" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAQAQAAAIAAAAAAAAAAAAAIoA=</HashCode>
+      <FileName>Assets\Hell\_Script\AI\ActionPossibility.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RuneWorth" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="WayList" />
+    </ShowAsCollectionAssociation>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

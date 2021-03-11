@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: ddb40ef9221ffed4f891bf891f6492f8
+timeCreated: 1465489602
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group
+    100002: pasted__group1
+    100004: pasted__pasted__pasted__polySurface6
+    100006: pasted__polySurface16
+    100008: pasted__Shield1
+    100010: pasted__Sword_Shield
+    100012: pasted__Templar
+    100014: polySurface10
+    100016: polySurface11
+    100018: polySurface6
+    100020: polySurface7
+    100022: polySurface8
+    100024: polySurface9
+    100026: //RootNode
+    100028: Templar_Shield
+    100030: transform1
+    100032: transform2
+    100034: transform3
+    100036: transform4
+    100038: transform5
+    400000: group
+    400002: pasted__group1
+    400004: pasted__pasted__pasted__polySurface6
+    400006: pasted__polySurface16
+    400008: pasted__Shield1
+    400010: pasted__Sword_Shield
+    400012: pasted__Templar
+    400014: polySurface10
+    400016: polySurface11
+    400018: polySurface6
+    400020: polySurface7
+    400022: polySurface8
+    400024: polySurface9
+    400026: Templar_Shield
+    400028: //RootNode
+    400030: transform1
+    400032: transform2
+    400034: transform3
+    400036: transform4
+    400038: transform5
+    2300000: pasted__polySurface16
+    2300002: pasted__Shield1
+    2300004: polySurface10
+    2300006: polySurface9
+    2300008: Templar_Shield
+    3300000: pasted__polySurface16
+    3300002: pasted__Shield1
+    3300004: polySurface10
+    3300006: polySurface9
+    3300008: Templar_Shield
+    4300000: pasted__Shield1
+    4300002: pasted__polySurface16
+    4300004: polySurface9
+    4300006: polySurface10
+    4300008: Templar_Shield
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

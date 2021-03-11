@@ -1,0 +1,281 @@
+Event	ID	Name			Wwise Object Path	Notes
+	49168678	Play_Lightning_Bolt			\AN_SFX\Weapons\Play_Lightning_Bolt	
+	185841772	Play_ConcussiveBlast			\AN_SFX\Spell\Play_ConcussiveBlast	
+	542867557	Play_PointsBeingTallied			\AN_SFX\UI\Play_PointsBeingTallied	
+	666044486	Play_Ravage			\AN_SFX\Spell\Play_Ravage	
+	750390071	Play_Ready			\AN_SFX\UI\Play_Ready	
+	770096812	Play_Undo			\AN_SFX\UI\Play_Undo	
+	806530139	Play_Knockback			\AN_SFX\Movement\Play_Knockback	
+	934459044	Play_Katana			\AN_SFX\Weapons\Play_Katana	
+	942757836	Play_Gravestone			\AN_SFX\UI\Play_Gravestone	
+	1042987450	Play_Select			\AN_SFX\UI\Play_Select	
+	1068815037	Play_Permafrost			\AN_SFX\Weapons\Play_Permafrost	
+	1070398523	Play_ShadowPort			\AN_SFX\Spell\Play_ShadowPort	
+	1116287889	Play_Take_damage			\AN_SFX\Spell\Play_Take_damage	
+	1172822028	Play_Death			\AN_SFX\Movement\Play_Death	
+	1241213063	Stop_GrapplingHook_End			\AN_SFX\Weapons\Stop_GrapplingHook_End	
+	1314250964	Play_SFX_KA_DropKick_5			\AN_SFX\King\Play_SFX_KA_DropKick_5	
+	1363606222	Play_Saiyon_Select			\AN_SFX\UI\Play_Saiyon_Select	
+	1370632150	Play_SFX_KA_AxeSlash_1			\AN_SFX\King\Play_SFX_KA_AxeSlash_1	
+	1439310415	Play_ShieldBash			\AN_SFX\Weapons\Play_ShieldBash	
+	1492145862	Play_SelectorSound			\AN_SFX\UI\Play_SelectorSound	
+	1598031839	Play_Fissure			\AN_SFX\Spell\Play_Fissure	
+	1942261817	Play_SFX_MA_PyroBall_draw			\AN_SFX\Weapons\Play_SFX_MA_PyroBall_draw	
+	2047756450	Play_Icespear			\AN_SFX\Weapons\Play_Icespear	
+	2065633319	Play_AnvilDrop			\AN_SFX\Weapons\Play_AnvilDrop	
+	2085636989	Play_Scroll			\AN_SFX\UI\Play_Scroll	
+	2117192880	Play_Void_Explosion			\AN_SFX\Spell\Play_Void_Explosion	
+	2153316035	Stop_SFX_PH_Arrow_impact			\AN_SFX\Weapons\Stop_SFX_PH_Arrow_impact	
+	2192674121	Play_DiamondSlash			\AN_SFX\Weapons\Play_DiamondSlash	
+	2216663055	Play_GrapplingHook			\AN_SFX\Weapons\Play_GrapplingHook	
+	2270376495	Play_Laser			\AN_SFX\Spell\Play_Laser	
+	2455054621	Play_GrapplingHookReturn			\AN_SFX\Weapons\Play_GrapplingHookReturn	
+	2591662282	Play_SFX_KA_AxeSlam_3			\AN_SFX\King\Play_SFX_KA_AxeSlam_3	
+	2599761348	Play_Rock_Dash			\AN_SFX\Spell\Play_Rock_Dash	
+	2652178615	Play_ButtonPress			\AN_SFX\UI\Play_ButtonPress	
+	2700014240	Play_Clapping			\AN_SFX\Victory\Play_Clapping	
+	2730135520	Play_Ice_Slip			\AN_SFX\Movement\Play_Ice_Slip	
+	2758145114	Play_SFX_KA_Earth_4			\AN_SFX\King\Play_SFX_KA_Earth_4	
+	2783395116	Play_Movement_Pickup			\AN_SFX\Movement\Play_Movement_Pickup	
+	2994419897	Play_FlameBreath			\AN_SFX\Weapons\Play_FlameBreath	
+	3058243321	Play_GrappleBite			\AN_SFX\Weapons\Play_GrappleBite	
+	3061788431	Stop_SFX_MA_PyroBall_impact			\AN_SFX\Weapons\Stop_SFX_MA_PyroBall_impact	
+	3130396874	Play_Water_Ambience			\AN_SFX\Arena\Play_Water_Ambience	
+	3155451852	Stop_Icespear			\AN_SFX\Weapons\Stop_Icespear	
+	3241310940	Play_HP_Loss			\AN_SFX\UI\Play_HP_Loss	
+	3340251131	Play_GroundPound			\AN_SFX\Spell\Play_GroundPound	
+	3518782663	Play_Movement_Drop			\AN_SFX\Movement\Play_Movement_Drop	
+	3535885548	Play_Card			\AN_SFX\UI\Play_Card	
+	3592989469	Play_TileReveal			\AN_SFX\UI\Play_TileReveal	
+	3657297342	Play_Ice_Shard			\AN_SFX\Weapons\Play_Ice_Shard	
+	3785725407	Play_Claw			\AN_SFX\Weapons\Play_Claw	
+	3800094157	Play_SFX_PH_Arrow_draw			\AN_SFX\Weapons\Play_SFX_PH_Arrow_draw	
+	3872106858	Play_wind_01			\AN_SFX\UI\Play_wind_01	
+	3921993629	Play_Movement			\AN_SFX\Movement\Play_Movement	
+	4023944682	Play_Arkn_Beam			\AN_SFX\Spell\Play_Arkn_Beam	
+	4102609240	Play_GaleWinds			\AN_SFX\Spell\Play_GaleWinds	
+	4107578200	Stop_Ice_Shard			\AN_SFX\Weapons\Stop_Ice_Shard	
+	4164487154	Play_Spell_Cast			\AN_SFX\Spell\Play_Spell_Cast	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	8671160	sfx_ph_sword_mono_swing_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ph_sword_mono_swing_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\DiamondSlash\sfx_ph_sword_swing\sfx_ph_sword_mono_swing_3		8227
+	8735763	GrapplingHook_ReturnGrab_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook_ReturnGrab\GrapplingHook_ReturnGrab_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHookReturn\GrapplingHook_ReturnGrab\GrapplingHook_ReturnGrab_01		11835
+	9888169	sfx_ma_icespear_mono_hit_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ma_icespear_mono_hit_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Icespear\sfx_ma_icespear_mono_hit\sfx_ma_icespear_mono_hit_2		10864
+	25652146	SFX_PH_Arrow_draw_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arrow\SFX_PH_Arrow_draw_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Arrow\SFX_PH_Arrow_draw\SFX_PH_Arrow_draw_03		30641
+	25678450	Gnd_Pnd_end_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ground Pound\Gnd_Pnd_end_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\GroundPound\Gnd_Pnd_end\Gnd_Pnd_end_03		10780
+	28887453	Card_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Card_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Card\Card_02		12521
+	31035097	sfx_ma_icespear_mono_wind_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ma_icespear_mono_wind_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Icespear\sfx_ma_icespear_mono_wind\sfx_ma_icespear_mono_wind_1		12707
+	36491077	Katana_Swing_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Katana\Katana_Swing\Katana_Swing_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Katana\Katana_Swing\Katana_Swing_2		8199
+	40147061	Gnd_Pnd_start_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ground Pound\Gnd_Pnd_start_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\GroundPound\Gnd_Pnd_start\Gnd_Pnd_start_01		5521
+	42626203	SFX_MA_PyroBall_draw_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_MA_PyroBall_draw_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Fireball\SFX_MA_PyroBall_draw\SFX_MA_PyroBall_draw_03		28136
+	60662923	Fissure_End_Low_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\End\Low\Fissure_End_Low_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\End\Low\Fissure_End_Low_02		21858
+	64860715	Claw_Hi_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Claw\Hi\Claw_Hi_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Claw\Hi\Claw_Hi_02		9757
+	68893330	Rock_Dash_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Rock Dash\Rock_Dash_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Rock_ Dash\Rock_Dash\Rock_Dash_01		35708
+	80823252	GrapplingHook_Begin_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook\GrapplingHook_Begin_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHook\GrapplingHook_Begin\GrapplingHook_Begin_01		9051
+	83210502	Fissure_End_Mid_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\End\Mid\Fissure_End_Mid_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\End\Mid\Fissure_End_Mid_03		36732
+	98165728	Void_Explosion_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Void_Explosion_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Void_Explosion\Void_Explosion_3		21123
+	108409452	AnvilDrop_Hi_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AnvilDrop\AnvilDrop_Hi\AnvilDrop_Hi_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\AnvilDrop\AnvilDrop_Hi\AnvilDrop_Hi_02		15701
+	110427508	Bite_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrappleBite\Bite\Bite_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrappleBite\Bite\Bite_01		29398
+	110931796	Gnd_Pnd_end_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ground Pound\Gnd_Pnd_end_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\GroundPound\Gnd_Pnd_end\Gnd_Pnd_end_02		13780
+	112292245	Movement_Drop_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Movement\Movement_Drop_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Movement\Movement_Drop_02		3118
+	112594532	SFX_KA_1_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_1_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_AxeSlash_1\SFX_KA_1_2		35809
+	113797267	Undo_05	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Undo_05_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Undo\Undo_05		5661
+	126193473	SFX_PH_Arrow_impact_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arrow\SFX_PH_Arrow_impact_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Arrow\SFX_PH_Arrow_impact\SFX_PH_Arrow_impact_01		10851
+	127551323	Arkn_Beam_Start_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arkn_Beam_Start_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Arkn_Beam_End\Arkn_Beam\Arkn_Beam_Start\Arkn_Beam_Start_01		8852
+	136307797	Rock_Dash_Start_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Rock Dash\Rock_Dash_Start_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Rock_ Dash\Rock_Dash_Start\Rock_Dash_Start_01		5040
+	145128014	Knockback_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Knockback\Knockback_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Knockback\Knockback_03		3832
+	147605612	ButtonPress_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ButtonPress\ButtonPress_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\ButtonPress\ButtonPress_03		5620
+	148586039	SFX_KA_5_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_5_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_DropKick_5\SFX_KA_5_2		20115
+	149736620	ButtonPress_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ButtonPress\ButtonPress_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\ButtonPress\ButtonPress_01		6873
+	154486764	UI_R_Points_mono_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\PointsBeingTallied\UI_R_Points_mono_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\PointsBeingTallied\UI_R_Points_mono_1		2319
+	175787589	UI_R_Clap_mono_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Clapping\UI_R_Clap_mono_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Victory\Clapping\UI_R_Clap_mono_2		101196
+	177156869	SFX_SP_GaleWinds_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_SP_GaleWinds_16\SFX_SP_GaleWinds_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GaleWinds\SFX_SP_GaleWinds_3		24557
+	182047284	Claw_Low_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Claw\Low\Claw_Low_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Claw\Low\Claw_Low_01		10150
+	184099605	sfx_ma_icespear_mono_thr_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ma_icespear_mono_thr_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Icespear\sfx_ma_icespear_mono_thr\sfx_ma_icespear_mono_thr_1		14742
+	194996770	ShadowPort_Dmg_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ShadowPort\ShadowPort_Dmg_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\ShadowPort\ShadowPort_Dmg\ShadowPort_Dmg_01		41161
+	195823614	Bite_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrappleBite\Bite\Bite_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrappleBite\Bite\Bite_03		31078
+	196005263	Claw_Mid_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Claw\Mid\Claw_Mid_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Claw\Mid\Claw_Mid_01		8729
+	197293843	SFX_PL_Cast_4	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_PL_Cast_4_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Spell Cast\SFX_PL_Cast_4		24632
+	211809365	GrapplingHook_ReturnGrab_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook_ReturnGrab\GrapplingHook_ReturnGrab_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHookReturn\GrapplingHook_ReturnGrab\GrapplingHook_ReturnGrab_02		10077
+	217321805	Scroll_06	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Scroll_06_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Scroll\Scroll_06		7251
+	220346195	SFX_KA_4_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_4_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_Earth_4\SFX_KA_4_2		32128
+	233007433	GrapplingHook_Begin_04	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook\GrapplingHook_Begin_04_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHook\GrapplingHook_Begin\GrapplingHook_Begin_04		7602
+	235849389	ButtonPress_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ButtonPress\ButtonPress_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\ButtonPress\ButtonPress_02		5810
+	238750842	UI_M_Tile_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\UI_M_Tile_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\TileReveal\UI_M_Tile_2		9947
+	239576923	AnvilDrop_Hi_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AnvilDrop\AnvilDrop_Hi\AnvilDrop_Hi_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\AnvilDrop\AnvilDrop_Hi\AnvilDrop_Hi_01		11145
+	248091702	SFX_MA_PyroBall_draw_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_MA_PyroBall_draw_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Fireball\SFX_MA_PyroBall_draw\SFX_MA_PyroBall_draw_02		25869
+	253740920	Movement_Pickup_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Movement\Movement_Pickup_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Movement\Movement_Pickup_01		3912
+	254129393	ConcussiveBlast_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ConcussiveBlast_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\ConcussiveBlast\ConcussiveBlast_01		27594
+	259295731	Fissure_End_Mid_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\End\Mid\Fissure_End_Mid_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\End\Mid\Fissure_End_Mid_01		47655
+	269868675	AFX_SP_PermaF_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AFX_SP_PermaF_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Permafrost\AFX_SP_PermaF_1		39767
+	270151290	Card_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Card_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Card\Card_03		11694
+	273435108	SFX_KA_5_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_5_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_DropKick_5\SFX_KA_5_1		17162
+	286303691	sfx_ph_sword_mono_swing_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ph_sword_mono_swing_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\DiamondSlash\sfx_ph_sword_swing\sfx_ph_sword_mono_swing_1		7613
+	293364630	ShieldBash_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ShieldBash\ShieldBash_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\ShieldBash\ShieldBash_01		12661
+	294716506	GrapplingHook_Return_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook_Return\GrapplingHook_Return_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHookReturn\GrapplingHook_Return\GrapplingHook_Return_02		14990
+	299359827	Knockback_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Knockback\Knockback_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Knockback\Knockback_01		4086
+	301502606	SFX_SP_GaleWinds_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_SP_GaleWinds_16\SFX_SP_GaleWinds_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GaleWinds\SFX_SP_GaleWinds_2		30417
+	310501570	Select_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Select_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Select\Select_02		1489
+	322542488	Fissure_Start_Hi_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\Start\Hi\Fissure_Start_Hi_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\Start\Hi\Fissure_Start_Hi_03		14117
+	330523275	Claw_Hi_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Claw\Hi\Claw_Hi_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Claw\Hi\Claw_Hi_03		10235
+	343185720	SFX_MA_PyroBall_impact_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_MA_PyroBall_impact_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Fireball\SFX_MA_PyroBall_impact\SFX_MA_PyroBall_impact_03		11619
+	344148928	SFX_MA_PyroBall_impact_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_MA_PyroBall_impact_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Fireball\SFX_MA_PyroBall_impact\SFX_MA_PyroBall_impact_02		12078
+	345855598	Arkn_Beam_Start_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arkn_Beam_Start_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Arkn_Beam_End\Arkn_Beam\Arkn_Beam_Start\Arkn_Beam_Start_03		8885
+	349922056	Ravage_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ravage\Ravage_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Ravage\Ravage_02		33001
+	353252944	sfx_ph_sword_mono_hit_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ph_sword_mono_hit_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\DiamondSlash\sfx_ph_sword_Hit\sfx_ph_sword_mono_hit_2		9411
+	353418006	SFX_PL_Cast_5	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_PL_Cast_5_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Spell Cast\SFX_PL_Cast_5		21939
+	361584380	GrapplingHook_Begin_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook\GrapplingHook_Begin_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHook\GrapplingHook_Begin\GrapplingHook_Begin_03		7919
+	368670056	AnvilDrop_Hi_013	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AnvilDrop\AnvilDrop_Hi\AnvilDrop_Hi_013_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\AnvilDrop\AnvilDrop_Hi\AnvilDrop_Hi_013		17499
+	369885907	AnvilDrop_Low_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AnvilDrop\AnvilDrop_Low\AnvilDrop_Low_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\AnvilDrop\AnvilDrop_Low\AnvilDrop_Low_01		23931
+	371404327	Arkn_Beam_End_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arkn_Beam_End_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Arkn_Beam_End\Arkn_Beam\Arkn_Beam_End\Arkn_Beam_End_01		7854
+	375241527	Fissure_Start_Mid_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\Start\Mid\Fissure_Start_Mid_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\Start\Mid\Fissure_Start_Mid_01		16528
+	378457656	Fissure_End_Low_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\End\Low\Fissure_End_Low_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\End\Low\Fissure_End_Low_01		23168
+	381074247	UI_R_Clap_mono_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Clapping\UI_R_Clap_mono_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Victory\Clapping\UI_R_Clap_mono_1		103458
+	381370664	Katana_Swing_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Katana\Katana_Swing\Katana_Swing_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Katana\Katana_Swing\Katana_Swing_1		7644
+	384170050	Gnd_Pnd_end_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ground Pound\Gnd_Pnd_end_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\GroundPound\Gnd_Pnd_end\Gnd_Pnd_end_01		10588
+	388159580	Fissure_Start_Hi_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\Start\Hi\Fissure_Start_Hi_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\Start\Hi\Fissure_Start_Hi_01		13743
+	391198221	Card_04	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Card_04_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Card\Card_04		7436
+	394539097	AFX_SP_PermaF_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AFX_SP_PermaF_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Permafrost\AFX_SP_PermaF_3		41221
+	395223157	ShadowPort_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ShadowPort\ShadowPort_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\ShadowPort\ShadowPort\ShadowPort_02		24816
+	396393808	Katana_Hit_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Katana\Katana_Hit\Katana_Hit_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Katana\Katana_Hit\Katana_Hit_1		12655
+	399054335	Slips_Ice_Mid	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Slips_Ice_Mid_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Ice_Slip\Slips_Ice_Mid		30498
+	401255261	SFX_MA_LightBolt_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Lightning Bolt\SFX_MA_LightBolt_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Lightning_Bolt\SFX_MA_LightBolt_1		16648
+	403149934	Scroll_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Scroll_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Scroll\Scroll_01		24958
+	406939851	SFX_PH_Arrow_draw_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arrow\SFX_PH_Arrow_draw_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Arrow\SFX_PH_Arrow_draw\SFX_PH_Arrow_draw_02		30050
+	420325004	Ice_Shard_Hit_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ice_Shard_Hit_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Ice_Shard\Ice_Shard_Hit\Ice_Shard_Hit_3		14373
+	428147536	Death_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Death\Death_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Death\Death_02		7346
+	430045295	Fissure_Start_Low_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\Start\Low\Fissure_Start_Low_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\Start\Low\Fissure_Start_Low_01		9880
+	436881660	SFX_KA_3_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_3_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_AxeSlam_3\SFX_KA_3_1		15737
+	441558439	Void_Explosion_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Void_Explosion_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Void_Explosion\Void_Explosion_1		21160
+	445000790	Fissure_End_Hi_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\End\Hi\Fissure_End_Hi_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\End\Hi\Fissure_End_Hi_01		58006
+	445571562	Claw_Low_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Claw\Low\Claw_Low_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Claw\Low\Claw_Low_03		10015
+	450446651	SFX_KA_1_4	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_1_4_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_AxeSlash_1\SFX_KA_1_4		27548
+	454839019	SFX_PL_Cast_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_PL_Cast_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Spell Cast\SFX_PL_Cast_2		24361
+	460217632	Fissure_End_Hi_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\End\Hi\Fissure_End_Hi_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\End\Hi\Fissure_End_Hi_02		33222
+	481109554	Ravage_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ravage\Ravage_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Ravage\Ravage_03		26962
+	485390573	Knockback_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Knockback\Knockback_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Knockback\Knockback_02		3942
+	485539216	SFX_KA_4_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_4_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_Earth_4\SFX_KA_4_3		36564
+	493334778	SFX_PH_Arrow_impact_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arrow\SFX_PH_Arrow_impact_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Arrow\SFX_PH_Arrow_impact\SFX_PH_Arrow_impact_03		9264
+	493809866	sfx_ph_sword_mono_swing_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ph_sword_mono_swing_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\DiamondSlash\sfx_ph_sword_swing\sfx_ph_sword_mono_swing_2		7668
+	499053158	SFX_PL_Cast_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_PL_Cast_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Spell Cast\SFX_PL_Cast_3		24834
+	505770762	Scroll_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Scroll_03_or_select_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Scroll\Scroll_03		3574
+	506025634	Katana_Hit_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Katana\Katana_Hit\Katana_Hit_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Katana\Katana_Hit\Katana_Hit_2		12292
+	510877084	Arkn_Beam_End_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arkn_Beam_End_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Arkn_Beam_End\Arkn_Beam\Arkn_Beam_End\Arkn_Beam_End_02		11377
+	513617496	SFX_SP_FlameB_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_SP_FlameB_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\FlameBreath\SFX_SP_FlameB_01		23607
+	525400748	Ready_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ready_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Ready\Ready_02		15610
+	526318683	Claw_Hi_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Claw\Hi\Claw_Hi_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Claw\Hi\Claw_Hi_01		9986
+	527733017	Ravage_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ravage\Ravage_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Ravage\Ravage_01		31602
+	531468198	Ready_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ready_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Ready\Ready_01		15626
+	537436884	Ice_Shard_Thr_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ice_Shard_Thr_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Ice_Shard\Ice_Shard_Thr\Ice_Shard_Thr_2		8101
+	537571080	ShadowPort_Dmg_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ShadowPort\ShadowPort_Dmg_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\ShadowPort\ShadowPort_Dmg\ShadowPort_Dmg_02		40113
+	539825339	Fissure_Start_Mid_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\Start\Mid\Fissure_Start_Mid_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\Start\Mid\Fissure_Start_Mid_02		21897
+	543561742	Saiyon_Select_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Saiyon_Select_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Saiyon_Select\Saiyon_Select_03		13124
+	543936044	wind_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\wind_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\wind_01		10563
+	551716154	Katana_Swing_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Katana\Katana_Swing\Katana_Swing_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Katana\Katana_Swing\Katana_Swing_3		7865
+	559153596	Fissure_End_Hi_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\End\Hi\Fissure_End_Hi_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\End\Hi\Fissure_End_Hi_03		37489
+	565672386	Ice_Shard_Thr_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ice_Shard_Thr_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Ice_Shard\Ice_Shard_Thr\Ice_Shard_Thr_1		8027
+	566097298	SFX_PH_Arrow_draw_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arrow\SFX_PH_Arrow_draw_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Arrow\SFX_PH_Arrow_draw\SFX_PH_Arrow_draw_01		18947
+	567499243	GrapplingHook_Mid_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook\GrapplingHook_Mid_01_8BB97BD1.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHook\GrapplingHook_Mid_01		18113
+	568836858	GraPe_Ple_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrappleBite\GraPe_Ple\GraPe_Ple_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrappleBite\GraPe_Ple\GraPe_Ple_01		31004
+	571039223	SFX_SP_Laser_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Laser\SFX_SP_Laser_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Laser\SFX_SP_Laser_01		43004
+	571370311	Rock_Dash_Start_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Rock Dash\Rock_Dash_Start_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Rock_ Dash\Rock_Dash_Start\Rock_Dash_Start_02		5729
+	574581795	Fissure_Start_Low_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\Start\Low\Fissure_Start_Low_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\Start\Low\Fissure_Start_Low_03		10691
+	590067648	Rock_Dash_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Rock Dash\Rock_Dash_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Rock_ Dash\Rock_Dash\Rock_Dash_02		42661
+	595824573	sfx_ph_sword_mono_hit_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ph_sword_mono_hit_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\DiamondSlash\sfx_ph_sword_Hit\sfx_ph_sword_mono_hit_3		8912
+	601042975	Movement_Pickup_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Movement\Movement_Pickup_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Movement\Movement_Pickup_02		3044
+	603795440	Death_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Death\Death_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Death\Death_01		4758
+	607004248	AnvilDrop_Mid_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AnvilDrop\AnvilDrop_Mid\AnvilDrop_Mid_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\AnvilDrop\AnvilDrop_Mid\AnvilDrop_Mid_01		14968
+	623085639	Into_Gravestone_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Into_Gravestone_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Gravestone\Into_Gravestone_1		40387
+	632824379	Bite_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrappleBite\Bite\Bite_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrappleBite\Bite\Bite_02		42947
+	637425203	SFX_PH_Arrow_impact_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arrow\SFX_PH_Arrow_imapct_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Arrow\SFX_PH_Arrow_impact\SFX_PH_Arrow_impact_02		7840
+	639160415	Select_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Select_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Select\Select_01		2633
+	643300769	AFX_SP_PermaF_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AFX_SP_PermaF_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Permafrost\AFX_SP_PermaF_2		44634
+	643633561	ShadowPort_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ShadowPort\ShadowPort_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\ShadowPort\ShadowPort\ShadowPort_01		30662
+	651881931	SFX_MA_LightBolt_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Lightning Bolt\SFX_MA_LightBolt_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Lightning_Bolt\SFX_MA_LightBolt_3		19052
+	656563976	Undo_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Undo_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Undo\Undo_02		6175
+	658583281	Rock_Dash_Start_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Rock Dash\Rock_Dash_Start_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Rock_ Dash\Rock_Dash_Start\Rock_Dash_Start_03		6095
+	664092482	ShieldBash_04	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ShieldBash\ShieldBash_04_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\ShieldBash\ShieldBash_04		16748
+	665154138	Movement_Drop_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Movement\Movement_Drop_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Movement\Movement_Drop_03		2771
+	673367720	GrapplingHook_End_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook\GrapplingHook_End_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHook\GrapplingHook_End\GrapplingHook_End_03		26137
+	677423308	Rock_Dash_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Rock Dash\Rock_Dash_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Rock_ Dash\Rock_Dash\Rock_Dash_03		35392
+	678371380	Gnd_Pnd_start_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ground Pound\Gnd_Pnd_start_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\GroundPound\Gnd_Pnd_start\Gnd_Pnd_start_02		5521
+	678460241	Katana_Hit_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Katana\Katana_Hit\Katana_Hit_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Katana\Katana_Hit\Katana_Hit_3		12348
+	680434130	HP_Loss	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\HP_Loss_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\HP_Loss		34852
+	681285718	ConcussiveBlast_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ConcussiveBlast_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\ConcussiveBlast\ConcussiveBlast_02		26092
+	690219673	Claw_Low_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Claw\Low\Claw_Low_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Claw\Low\Claw_Low_02		11548
+	696815496	SFX_PL_Cast_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_PL_Cast_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Spell Cast\SFX_PL_Cast_1		21564
+	698497126	Saiyon_Select_04	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Saiyon_Select_04_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Saiyon_Select\Saiyon_Select_04		4286
+	700356492	Ready_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ready_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Ready\Ready_03		12382
+	701744112	SFX_KA_1_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_1_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_AxeSlash_1\SFX_KA_1_3		33392
+	708884382	ShadowPort_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ShadowPort\ShadowPort_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\ShadowPort\ShadowPort\ShadowPort_03		24532
+	708927018	GrapplingHook_ReturnGrab_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook_ReturnGrab\GrapplingHook_ReturnGrab_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHookReturn\GrapplingHook_ReturnGrab\GrapplingHook_ReturnGrab_03		7449
+	710354691	AnvilDrop_Mid_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AnvilDrop\AnvilDrop_Mid\AnvilDrop_Mid_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\AnvilDrop\AnvilDrop_Mid\AnvilDrop_Mid_02		15747
+	719606092	Select_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Select_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Select\Select_03		5945
+	727579921	AnvilDrop_Mid_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AnvilDrop\AnvilDrop_Mid\AnvilDrop_Mid_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\AnvilDrop\AnvilDrop_Mid\AnvilDrop_Mid_03		19146
+	731626569	SFX_KA_4_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_4_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_Earth_4\SFX_KA_4_1		33395
+	732833253	Void_Explosion_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Void_Explosion_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Void_Explosion\Void_Explosion_2		20247
+	733870855	Ice_Shard_Hit_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ice_Shard_Hit_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Ice_Shard\Ice_Shard_Hit\Ice_Shard_Hit_2		14195
+	738082850	GrapplingHook_Return_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook_Return\GrapplingHook_Return_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHookReturn\GrapplingHook_Return\GrapplingHook_Return_03		14092
+	738744254	Movement_Pickup_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Movement\Movement_Pickup_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Movement\Movement_Pickup_03		3161
+	745163272	SFX_KA_5_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_5_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_DropKick_5\SFX_KA_5_3		23463
+	756472704	Ice_Shard_Thr_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ice_Shard_Thr_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Ice_Shard\Ice_Shard_Thr\Ice_Shard_Thr_3		8438
+	761847363	Movement_Drop_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Movement\Movement_Drop_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Movement\Movement_Drop_01		3098
+	772300289	Claw_Mid_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Claw\Mid\Claw_Mid_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Claw\Mid\Claw_Mid_03		9157
+	774454455	Saiyon_Select_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Saiyon_Select_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Saiyon_Select\Saiyon_Select_01		6843
+	775560784	Arkn_Beam_Start_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arkn_Beam_Start_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Arkn_Beam_End\Arkn_Beam\Arkn_Beam_Start\Arkn_Beam_Start_02		13561
+	776037171	sfx_ma_icespear_mono_wind_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ma_icespear_mono_wind_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Icespear\sfx_ma_icespear_mono_wind\sfx_ma_icespear_mono_wind_3		12697
+	784480138	UI_M_Tile_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\UI_M_Tile_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\TileReveal\UI_M_Tile_1		10217
+	785243234	sfx_ph_sword_mono_hit_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ph_sword_mono_hit_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\DiamondSlash\sfx_ph_sword_Hit\sfx_ph_sword_mono_hit_1		8724
+	787653689	GraPe_Ple_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrappleBite\GraPe_Ple\GraPe_Ple_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrappleBite\GraPe_Ple\GraPe_Ple_02		42089
+	810726603	SFX_KA_3_4	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_3_4_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_AxeSlam_3\SFX_KA_3_4		16345
+	834316601	Arkn_Beam_End_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Arkn_Beam_End_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Arkn_Beam_End\Arkn_Beam\Arkn_Beam_End\Arkn_Beam_End_03		14558
+	836512488	Slips_Ice_Start	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Slips_Ice_Start_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Ice_Slip\Slips_Ice_Start		21997
+	844554598	Scroll_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Scroll_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Scroll\Scroll_02		21276
+	848008965	Fissure_Start_Hi_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\Start\Hi\Fissure_Start_Hi_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\Start\Hi\Fissure_Start_Hi_02		15067
+	852031566	Card_05	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Card_05_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Card\Card_05		10255
+	852547149	Fissure_Start_Mid_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\Start\Mid\Fissure_Start_Mid_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\Start\Mid\Fissure_Start_Mid_03		16736
+	854168696	Saiyon_Select_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Saiyon_Select_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Saiyon_Select\Saiyon_Select_02		11787
+	855446397	ShadowPort_Dmg_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ShadowPort\ShadowPort_Dmg_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\ShadowPort\ShadowPort_Dmg\ShadowPort_Dmg_03		41447
+	855845289	Death_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Death\Death_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\MovementParent\Death\Death_03		4859
+	857651227	AnvilDrop_Low_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AnvilDrop\AnvilDrop_Low\AnvilDrop_Low_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\AnvilDrop\AnvilDrop_Low\AnvilDrop_Low_02		21821
+	861246372	Scroll_04	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Scroll_04_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Scroll\Scroll_04		11515
+	864884501	GraPe_Ple_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrappleBite\GraPe_Ple\GraPe_Ple_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrappleBite\GraPe_Ple\GraPe_Ple_03		29966
+	880490842	Fissure_Start_Low_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\Start\Low\Fissure_Start_Low_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\Start\Low\Fissure_Start_Low_02		12503
+	905485599	GrapplingHook_Return_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook_Return\GrapplingHook_Return_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHookReturn\GrapplingHook_Return\GrapplingHook_Return_01		12189
+	905866359	SFX_MA_PyroBall_impact_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_MA_PyroBall_impact_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Fireball\SFX_MA_PyroBall_impact\SFX_MA_PyroBall_impact_01		10323
+	910805492	SFX_SP_FlameB_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_SP_FlameB_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\FlameBreath\SFX_SP_FlameB_02		25684
+	918480243	GrapplingHook_Begin_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook\GrapplingHook_Begin_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHook\GrapplingHook_Begin\GrapplingHook_Begin_02		9545
+	930464817	Into_Gravestone_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Into_Gravestone_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Gravestone\Into_Gravestone_2		43305
+	932933471	GrapplingHook_End_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook\GrapplingHook_End_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHook\GrapplingHook_End\GrapplingHook_End_02		16248
+	935887731	AnvilDrop_Low_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\AnvilDrop\AnvilDrop_Low\AnvilDrop_Low_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\AnvilDrop\AnvilDrop_Low\AnvilDrop_Low_03		25353
+	938656084	SFX_KA_1_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_1_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_AxeSlash_1\SFX_KA_1_1		34783
+	946804665	UI_TB_Button_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Selector Sound\UI_TB_Button_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\SelectorSound\UI_TB_Button_02		4116
+	949528308	Undo_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Undo_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Undo\Undo_03		5924
+	959480573	Gnd_Pnd_start_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ground Pound\Gnd_Pnd_start_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\GroundPound\Gnd_Pnd_start\Gnd_Pnd_start_03		5521
+	959545298	UI_M_Tile_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\UI_M_Tile_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\TileReveal\UI_M_Tile_3		9776
+	960343140	Fissure_End_Mid_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\End\Mid\Fissure_End_Mid_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\End\Mid\Fissure_End_Mid_02		32259
+	964158870	sfx_ma_icespear_mono_wind_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ma_icespear_mono_wind_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Icespear\sfx_ma_icespear_mono_wind\sfx_ma_icespear_mono_wind_2		12707
+	964168853	ShieldBash_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ShieldBash\ShieldBash_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\ShieldBash\ShieldBash_03		19692
+	970005608	SFX_MA_LightBolt_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Lightning Bolt\SFX_MA_LightBolt_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Lightning_Bolt\SFX_MA_LightBolt_2		16193
+	975713525	Scroll_05	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Scroll_05_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Scroll\Scroll_05		9851
+	978618552	Ice_Shard_Hit_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ice_Shard_Hit_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Ice_Shard\Ice_Shard_Hit\Ice_Shard_Hit_1		13636
+	981041139	Water_Ambience	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Water_Ambience_8BB97BD1.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Arena\Water_Ambience		1179069
+	982269512	Claw_Mid_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Claw\Mid\Claw_Mid_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Claw\Mid\Claw_Mid_02		10326
+	983531072	sfx_ma_icespear_mono_thr_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ma_icespear_mono_thr_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Icespear\sfx_ma_icespear_mono_thr\sfx_ma_icespear_mono_thr_2		14899
+	985332605	SFX_KA_3_2	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_3_2_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_AxeSlam_3\SFX_KA_3_2		17595
+	993643889	Fissure_End_Low_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Fissure\End\Low\Fissure_End_Low_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\Fissure\End\Low\Fissure_End_Low_03		25664
+	993688146	SFX_KA_3_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_KA\SFX_KA_3_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\King\SFX_KA_AxeSlam_3\SFX_KA_3_3		15425
+	1004212656	ConcussiveBlast_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ConcussiveBlast_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Spell\ConcussiveBlast\ConcussiveBlast_03		27696
+	1005415269	SFX_SP_FlameB_03	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_SP_FlameB_03_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\FlameBreath\SFX_SP_FlameB_03		25694
+	1005722981	sfx_ma_icespear_mono_hit_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ma_icespear_mono_hit_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Icespear\sfx_ma_icespear_mono_hit\sfx_ma_icespear_mono_hit_3		11591
+	1010109208	SFX_SP_GaleWinds_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_SP_GaleWinds_16\SFX_SP_GaleWinds_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GaleWinds\SFX_SP_GaleWinds_1		27993
+	1013387478	SFX_MA_PyroBall_draw_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\SFX_MA_PyroBall_draw_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Fireball\SFX_MA_PyroBall_draw\SFX_MA_PyroBall_draw_01		30660
+	1016287707	Undo_04	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Undo_04_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Undo\Undo_04		6681
+	1020133694	Undo_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Undo_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Undo\Undo_01		9489
+	1025296189	sfx_ma_icespear_mono_hit_1	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ma_icespear_mono_hit_1_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Icespear\sfx_ma_icespear_mono_hit\sfx_ma_icespear_mono_hit_1		11348
+	1030885031	Card_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Card_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\UI\Card\Card_01		6122
+	1037218333	Ice_Shard_Wind	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\Ice_Shard_Wind_8BB97BD1.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Ice_Shard\Ice_Shard_Wind		6472
+	1051064506	GrapplingHook_End_01	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\GrapplingHook\GrapplingHook_End_01_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\GrapplingHook\GrapplingHook_End\GrapplingHook_End_01		23347
+	1054950228	sfx_ma_icespear_mono_thr_3	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\sfx_ma_icespear_mono_thr_3_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\Icespear\sfx_ma_icespear_mono_thr\sfx_ma_icespear_mono_thr_3		14512
+	1073586037	ShieldBash_02	C:\Users\gd42daniel\Desktop\ReadyUp\AN\.cache\Android\SFX\ShieldBash\ShieldBash_02_BB6BD343.wem		\Actor-Mixer Hierarchy\AN_SFX\AN_SFX\Weapons\ShieldBash\ShieldBash_02		18352
+

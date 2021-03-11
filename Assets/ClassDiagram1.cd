@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hell.Display.MasterBehaviour&lt;TokenType&gt;">
+    <Position X="27.5" Y="19.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAABgAAAAAAAAQAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\Masters\MasterBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Tile">
+    <Position X="28.5" Y="3.75" Width="1.75" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Hell.Tile.State">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Hell\Script\Room\Tile.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="Pawn" Type="Hell.Pawn" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="29.229" Y="3.75" />
+        <Point X="29.229" Y="1.234" />
+        <Point X="25.395" Y="1.234" Type="JumpStart" />
+        <Point X="25.229" Y="1.234" Type="JumpEnd" />
+        <Point X="20.5" Y="1.234" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAAEAAAAACAAgYAAAAAAAAIEAABAAAAEAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Board\Tile.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="Pawn" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="effects" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hell.RoomManager">
+    <Position X="7.75" Y="6.25" Width="2.5" />
+    <AssociationLine Name="Board" Type="Hell.Board" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="7.188" />
+        <Point X="11.5" Y="7.188" />
+        <Point X="11.5" Y="0.75" />
+        <Point X="25.312" Y="0.75" />
+        <Point X="25.312" Y="2.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>RAAACgIICGIAQpUAAACAAAAAAEAQQCAAAIAIACAAAEA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Structure\RoomManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TurnEngine" />
+      <Property Name="Proxy" />
+      <Property Name="Board" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Teams" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Network.Proxy">
+    <Position X="8.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAABAAAIBgCQAAAABAAAgAAAAABAADUACAASAAQAA=</HashCode>
+      <FileName>Assets\AuxiliarScripts\Photon\Network\Proxy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Team">
+    <Position X="11.75" Y="6.5" Width="2.25" />
+    <AssociationLine Name="Characters" Type="Hell.Character" FixedFromPoint="true">
+      <Path>
+        <Point X="14" Y="8.625" />
+        <Point X="15.5" Y="8.625" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAACRAAAAAAAAAAAAAAAAAAAQAAAACAgAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Structure\Team.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Characters" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hell.Display.MoveTimeline">
+    <Position X="20" Y="19" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAgQAABAAAQAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Board\MoveTimeline.cs</FileName>
+      <NewMemberFileName>Assets\Hell\_Script\Root\Display\Timeline.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="boardTokens" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hell.TurnEngine">
+    <Position X="11.25" Y="10.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>gAAACAAgAAAACQAAAAAAAAAAAAQAAAAAQIAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Placeholders\ActionBasegame\TurnEngine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Timeline" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Teams" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hell.Character">
+    <Position X="15.5" Y="7" Width="1.5" />
+    <AssociationLine Name="Runes" Type="Hell.Display.PlayerAction" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17" Y="9.304" />
+        <Point X="18" Y="9.304" />
+        <Point X="18" Y="9.992" />
+        <Point X="19.417" Y="9.992" Type="JumpStart" />
+        <Point X="19.583" Y="9.992" Type="JumpEnd" />
+        <Point X="27.438" Y="9.992" />
+        <Point X="27.438" Y="12.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="walk" Type="Hell.Display.PlayerAction" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17" Y="9.54" />
+        <Point X="18" Y="9.54" />
+        <Point X="18" Y="9.992" />
+        <Point X="19.417" Y="9.992" Type="JumpStart" />
+        <Point X="19.583" Y="9.992" Type="JumpEnd" />
+        <Point X="27.125" Y="9.992" />
+        <Point X="27.125" Y="12.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAgAAQABCAAAAAAAAAEAAACEACCIgAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Structure\Character.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="walk" />
+      <Field Name="wait" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="Runes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hell.Pawn">
+    <Position X="18.25" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ASUBAACAJIAAAQSEAAAQgJEQAAABQEQgUBAASAEAQUI=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Structure\Pawn.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Display.Plan">
+    <Position X="11.5" Y="14" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAQBAgAAQAgAAEAAAgQAAAAgAIBCACAAAAABAgAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Display\Plan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="owner" />
+      <Property Name="Top" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="actionQueue" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.MasterAct" Collapsed="true">
+    <Position X="26.5" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\Masters\MasterAct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.MasterTile">
+    <Position X="29" Y="16.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAACAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\Masters\MasterTile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Display.ActionToken">
+    <Position X="17.5" Y="12.25" Width="1.5" />
+    <Members>
+      <Property Name="Duration" Hidden="true" />
+      <Property Name="Master" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAiAACAAAAAAAQABAAAAAAEAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Display\Tokens\ActionToken.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Action" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hell.Display.PlayerAction">
+    <Position X="26.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgQAACAAAAAQAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Display\PlayerAction.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="this[System.Int32]" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hell.Board">
+    <Position X="24" Y="2.5" Width="2.75" />
+    <Members>
+      <Method Name="CreateBoard" Hidden="true" />
+      <Method Name="DestroyBoard" Hidden="true" />
+      <Method Name="RelocateTiles" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AACAEQAAAAACEQAACAgAAAAABAEAEAQAM4AAAAqAAgA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Board\Board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="board" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hell.Display.TileToken">
+    <Position X="15" Y="16.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Hell.Display.TileToken.TileSettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Hell\_Script\Root\Display\Tokens\TileToken.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <InheritanceLine Type="Hell.Display.BoardToken" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="17.25" Y="22.25" />
+        <Point X="17.25" Y="21.89" />
+        <Point X="15.812" Y="21.89" />
+        <Point X="15.812" Y="20.175" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQACgAAAAAADAAAAgAAAAAAAAACAAAAAIABAAAQA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Display\Tokens\TileToken.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Display.Token">
+    <Position X="17.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAKAACACoAAgACAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Display\Tokens\Token.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Owner" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hell.Display.AnimToken">
+    <Position X="22" Y="22.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Hell.Display.AnimToken.AnimSettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Hell\_Script\Root\Display\Tokens\AnimToken.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <InheritanceLine Type="Hell.Display.BoardToken" FixedFromPoint="true">
+      <Path>
+        <Point X="18" Y="24.188" />
+        <Point X="20.885" Y="24.188" Type="JumpStart" />
+        <Point X="21.052" Y="24.188" Type="JumpEnd" />
+        <Point X="22" Y="24.188" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAIQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Display\Tokens\AnimToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Display.BoardToken">
+    <Position X="16.5" Y="22.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Hell.Display.BoardToken.BoardSettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Hell\_Script\Root\Display\Tokens\BoardToken.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAQAAIAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Display\Tokens\BoardToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Display.MoveToken">
+    <Position X="25" Y="22.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Hell.Display.MoveToken.MoveSettings" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Hell\_Script\Root\Display\Tokens\MoveToken.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="Hell.Display.MoveToken.Pair" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Hell\_Script\Root\Display\Tokens\MoveToken.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAABAAAAAAAABAAAAAAgAQAAAAABAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Display\Tokens\MoveToken.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Display.IPlayableExtention">
+    <Position X="31" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\IPlayable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Rune.AnimateTarget">
+    <Position X="33.25" Y="12.5" Width="2.5" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="13.375" />
+        <Point X="35.75" Y="13.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAgAAAAAwAAAAAAAAAAAAAACAABAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\AnimateTarget.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.WalkHighlight">
+    <Position X="33.25" Y="15.5" Width="2.5" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="17.062" />
+        <Point X="35.75" Y="17.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAABQAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\BaseComponents\WalkHighlight.cs</FileName>
+      <NewMemberFileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\AoeProjection.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.ConcentricPush">
+    <Position X="41.5" Y="6.25" Width="2.5" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="5.797" />
+        <Point X="41.131" Y="5.797" />
+        <Point X="41.131" Y="7.25" />
+        <Point X="41.5" Y="7.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAggAAAAAAAAIAACAAAAAAgAAABAAAECAACAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\ConcentricPush.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.Damage">
+    <Position X="41.5" Y="10" Width="2.5" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="5.811" />
+        <Point X="41.123" Y="5.811" />
+        <Point X="41.123" Y="10.688" />
+        <Point X="41.5" Y="10.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEgAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\Damage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.FinalParticle">
+    <Position X="33.25" Y="9.75" Width="2.5" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="10.562" />
+        <Point X="35.75" Y="10.562" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAABAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\FinalParticle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.Knockback">
+    <Position X="41.5" Y="13" Width="2.5" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="5.797" />
+        <Point X="41.131" Y="5.797" />
+        <Point X="41.131" Y="13.938" />
+        <Point X="41.5" Y="13.938" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAQAggBQABCAAAAAQAEAAAAAgBAABAAAEAAAEAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\Knockback.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.Projectile">
+    <Position X="37.75" Y="13" Width="2.5" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="13.688" />
+        <Point X="37.75" Y="13.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAABAACAAAAAAgwBEAAgBCAEAAAAAAAAAAAgABAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\Projectile.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.Push">
+    <Position X="37.75" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\Push.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Rune.SetTiles">
+    <Position X="37.75" Y="10" Width="2.5" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="9.625" />
+        <Point X="41.123" Y="9.625" />
+        <Point X="41.123" Y="10.938" />
+        <Point X="40.25" Y="10.938" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAgAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\SetTiles.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.StartParticle">
+    <Position X="33.5" Y="7" Width="2" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="8.312" />
+        <Point X="35.5" Y="8.312" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAJAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\BaseComponents\StartParticle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.StartTemporaryObjectsOnTiles">
+    <Position X="35.5" Y="21.75" Width="2.5" />
+    <InheritanceLine Type="Hell.Rune.StartTemporaryObjectBase&lt;MasterType&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="36.75" Y="20.896" />
+        <Point X="36.75" Y="21.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\StartTemporaryObjectsOnTiles.cs</FileName>
+      <NewMemberFileName>Assets\Hell\_Script\ComponentLibrary\BaseComponents\StartTemporaryObject.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.TokenDrivenBehaviour&lt;MasterType&gt;">
+    <Position X="35.25" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\TokenDrivenBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Rune.StartTemporaryObjectBase&lt;MasterType&gt;">
+    <Position X="35.25" Y="18.25" Width="3" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="18.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAAAEAAAAAAAAAAAIAAAAAIACAAAAAAgAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\BaseComponents\StartTemporaryObject.cs</FileName>
+      <NewMemberFileName>Assets\Hell\_Script\ComponentLibrary\ActionComponents\StartTemporaryObjectsOnTiles.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Rune.Animate">
+    <Position X="45.5" Y="6.5" Width="2.25" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="5.811" />
+        <Point X="48.559" Y="5.811" />
+        <Point X="48.559" Y="7.688" />
+        <Point X="47.75" Y="7.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\BaseComponents\Animate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.Audio">
+    <Position X="45.5" Y="13.25" Width="2.25" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="5.811" />
+        <Point X="48.559" Y="5.811" />
+        <Point X="48.559" Y="14.5" />
+        <Point X="47.75" Y="14.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAICBgAAAAAAABgAIAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\BaseComponents\Audio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.MoveMe">
+    <Position X="45.75" Y="9" Width="2" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="5.811" />
+        <Point X="48.559" Y="5.811" />
+        <Point X="48.559" Y="10.188" />
+        <Point X="47.75" Y="10.188" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAhAAABQAAAAAAAAQAEEAAAAgAAQAACAEAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\BaseComponents\MoveMe.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hell.Rune.StartTemporaryObject">
+    <Position X="45.5" Y="16.75" Width="2.5" />
+    <InheritanceLine Type="Hell.Rune.StartTemporaryObjectBase&lt;MasterType&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="38.25" Y="19.375" />
+        <Point X="46.625" Y="19.375" />
+        <Point X="46.625" Y="18.819" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAABAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\BaseComponents\StartTemporaryObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="BaseTargetSystem">
+    <Position X="51.25" Y="5.25" Width="2.5" />
+    <InheritanceLine Type="Hell.TokenDrivenBehaviour&lt;MasterType&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="36.5" Y="5.434" />
+        <Point X="36.5" Y="5.812" />
+        <Point X="51.25" Y="5.812" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\TargetComponents\BaseTargetSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicTargetSystem">
+    <Position X="50" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\TargetComponents\BasicTargetSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineTarget">
+    <Position X="50.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\TargetComponents\LineTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Rune.Target.RandomTargets">
+    <Position X="53" Y="13.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAABAAkAAAAAAAAAAAAAAgCAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\TargetComponents\RandomTargets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SidewaysLine">
+    <Position X="53.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\TargetComponents\SidewaysLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Rune.Target.TargetSystem">
+    <Position X="51.25" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAgAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\ComponentLibrary\TargetComponents\TargetSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.MasterAttack">
+    <Position X="24" Y="16.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAIAAAAAQAAAAAARAAAgAAAQAAAAAAACAAAgAI=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\Masters\MasterAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Master">
+    <Position X="27.75" Y="22.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAQAIAAAAAAAAAAAAAAAAAAEABAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\Masters\Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hell.Display.Timeline">
+    <Position X="8.25" Y="14.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAAAQBAAiAIABAAAACAAAAAAAAAAEQAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\Root\Display\Timeline.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Plans" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Interface Name="Hell.IRule" Collapsed="true">
+    <Position X="39.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\TokenDrivenBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hell.IDisplay&lt;TokenType&gt;">
+    <Position X="43.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\TokenDrivenBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hell.Display.IPlayable">
+    <Position X="31.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAgAAAAAAAAAAAgQAAAAAAAACAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\IPlayable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hell.IRule&lt;TokenType&gt;">
+    <Position X="39.75" Y="3" Width="1.75" />
+    <InheritanceLine Type="Hell.IRule" FixedToPoint="true">
+      <Path>
+        <Point X="40.5" Y="1.812" />
+        <Point X="40.5" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\TokenDrivenBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hell.IDisplay" Collapsed="true">
+    <Position X="44" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Hell\_Script\BaseScripts\TokenDrivenBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
